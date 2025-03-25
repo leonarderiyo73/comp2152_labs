@@ -1,3 +1,10 @@
 # Tick class for aggregation
 class Tick:
-    pass
+    def __init__(self):
+        print("Aggregation:Tick is created.")
+
+    def consume_blood(self):
+        print("Aggregation:Tick is consuming blood.")
+
+    def __del__(self):
+        print("Aggregation:Tick is destroyed.")
